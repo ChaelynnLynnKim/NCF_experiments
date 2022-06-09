@@ -7,7 +7,7 @@ model = 'NeuMF-end'
 assert model in ['MLP', 'GMF', 'NeuMF-end', 'NeuMF-pre']
 
 # paths
-main_path = '/home/share/guoyangyang/recommendation/NCF-Data/'
+main_path = '/content/neural_collaborative_filtering/Data/'
 
 train_rating = main_path + '{}.train.rating'.format(dataset)
 test_rating = main_path + '{}.test.rating'.format(dataset)
